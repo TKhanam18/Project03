@@ -27,6 +27,7 @@ public class Veryify_Other_Functionalites extends Base_Class_1 {
 	@When("I Click on search icon")
 	public void i_click_on_search_icon() {
 	    click(By.xpath("//button[@aria-label='go']"));
+	    System.out.println("Click done");
 	}
 
 
